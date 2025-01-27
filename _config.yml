@@ -1,5 +1,57 @@
-title: SREENIVASULU RAMANABOINA
-#logo: 
-description: CLoud/DevOps Engineer
-#show_downloads:
-theme: jekyll-theme-cayman
+# Site Settings
+title: "Sreenivasulu R Portfolio"
+description: "Showcasing my skills, projects, and experience in Cloud and DevOps engineering."
+url: "https://sreenu827.github.io/sreenivasuluramanaboina/"
+baseurl: "" # Leave blank unless you need a subdirectory
+
+# Author Settings
+author:
+  name: "Sreenivasulu R"
+  email: "YourEmail@example.com"
+  github: "https://github.com/sreenu827"
+  linkedin: "https://www.linkedin.com/in/your-profile/"
+  location: "Hyderabad, India"
+  tagline: "Aspiring Cloud & DevOps Engineer | Automation Enthusiast"
+
+# Theme Settings
+theme: "minimal-mistakes-jekyll" # Replace with the theme you're using
+remote_theme: "mmistakes/minimal-mistakes" # Optional if using a remote theme
+
+# Navigation
+nav_links:
+  - title: "About"
+    url: "/about/"
+  - title: "Skills"
+    url: "/skills/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Resume"
+    url: "/resume/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Social Links
+social_links:
+  - name: "GitHub"
+    url: "https://github.com/sreenu827"
+    icon: "fab fa-github"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/your-profile/"
+    icon: "fab fa-linkedin"
+  - name: "Email"
+    url: "mailto:YourEmail@example.com"
+    icon: "fas fa-envelope"
+
+# Footer
+footer:
+  content: "Built with ❤️ by Sreenivasulu R using Jekyll & GitHub Pages."
+
+# Plugins (Optional)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Markdown Options
+markdown: kramdown
+highlighter: rouge
