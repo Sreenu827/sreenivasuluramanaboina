@@ -1,33 +1,80 @@
-# Site Settings
-title: "Sreenivasulu R Portfolio"
-description: "Showcasing my skills, projects, and experience in Cloud and DevOps engineering."
-url: "https://sreenu827.github.io/sreenivasuluramanaboina"
-baseurl: "" # Leave blank unless the site is in a subdirectory
+# Site settings
+title: "Sreenivasulu's Portfolio"
+email: "your-email@example.com"
+description: "Cloud and DevOps Engineer Portfolio"
+baseurl: "/"
+url: "https://yourgithubusername.github.io" # Change to your GitHub Pages URL
+twitter_username: "your-twitter-username"
+github_username: "your-github-username"
 
-# Author Settings
-author:
-  name: "Sreenivasulu Ramanaboina"
-  email: "sreenu.ramanaboina@gmail.com"
-  github: "https://github.com/sreenu827"
-  linkedin: "https://www.linkedin.com/in/sreenivasuluramanaboina/"
-  location: "Cape Girardeau, MO, USA"
-  tagline: "Aspiring Cloud & DevOps Engineer | Automation Enthusiast"
-
-# Theme Settings
-remote_theme: "mmistakes/minimal-mistakes@4.20.0"  # Downgrading to version 4.20.0
-theme: null # Set to null when using remote themes (avoid conflicts)
-
-# Footer
-footer:
-  content: "Built with ❤️ by Sreenivasulu Ramanaboina using Jekyll & GitHub Pages."
-
-# Plugins (Ensure required plugins are included)
+# Build settings
+markdown: kramdown
+theme: mmistakes/minimal-mistakes@4.19.0 # Changed to a stable version of the theme
+remote_theme: "mmistakes/minimal-mistakes@4.19.0" # Specify version of theme
 plugins:
-  - jekyll-remote-theme  # Required for using remote themes
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-coffeescript
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
 
-# Markdown Options
+# Jekyll settings
 markdown: kramdown
+paginate: 5
 highlighter: rouge
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "LICENSE"
+
+# Social media links (replace with your own)
+twitter_username: "your-twitter-username"
+github_username: "your-github-username"
+
+# Jekyll SEO settings
+seo:
+  title: "Sreenivasulu's Cloud and DevOps Portfolio"
+  description: "A portfolio showcasing the skills and projects of Sreenivasulu, Cloud and DevOps engineer."
+  twitter:
+    username: "your-twitter-username"
+    image: "assets/images/your-image.png"
+  google_analytics:
+    tracking_id: "UA-XXXXXXX-X" # Replace with your tracking ID if applicable
+
+# GitHub Pages
+github_pages: true
+
+# Other settings
+google_fonts:
+  - "Roboto"
+  - "Open Sans"
+
+# Enable the sitemap plugin
+sitemap:
+  hostname: "https://yourgithubusername.github.io" # Your site URL
+  exclude:
+    - "/assets/*"
+    - "/tags/*"
+
+# Enabling other custom settings
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Optional settings
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
