@@ -1,39 +1,42 @@
-Sreenivasulu | Cloud & DevOps Engineer 🌐☁️
-Welcome to my portfolio! I’m a passionate Cloud and DevOps Engineer with a strong focus on building scalable, efficient, and secure cloud solutions. This page highlights my skills, projects, and certifications that showcase my expertise in DevOps and cloud technologies.
+# Sreenivasulu R - Cloud & DevOps Engineer Portfolio 🌐
 
-🚀 About Me
-Profession: [Cloud and DevOps Engineer]
-Experience: [Hands-on expertise in automation, CI/CD pipelines, and cloud infrastructure (AWS).]
-Goal: [To innovate scalable and secure cloud infrastructures while leveraging the best DevOps practices.]
-Passion: [Continuous learning and empowering teams to achieve operational excellence through automation.]
-💼 Skills
-DevOps Tools & Technologies:
-Containerization: [Docker, Kubernetes]
-Automation: [Ansible, Terraform]
-CI/CD: [Jenkins, GitHub Actions, GitLab CI/CD]
-Monitoring: [Prometheus, Grafana, ELK Stack]
-Version Control: [Git, GitHub]
-Cloud Expertise:
-AWS Services: [EC2, S3, RDS, CloudFormation, Lambda, IAM, VPC]
-Other Clouds: [Basic knowledge of Azure and GCP]
-Infrastructure as Code: [Terraform, CloudFormation]
-Operating Systems:
-[Proficient in Linux (Ubuntu, CentOS)]
-🌟 Key Projects
-1. [Stargate AI Infrastructure]
-Description: [Designed and deployed a scalable and cost-effective AI infrastructure on AWS.]
-Tools: [Terraform, Kubernetes, Jenkins]
-Achievements: [Improved system uptime by 30% and reduced infrastructure costs by 20%.]
-2. [CI/CD Pipeline Automation]
-Description: [Built a complete CI/CD pipeline for a microservices architecture.]
-Tools: [Jenkins, Docker, Kubernetes, GitLab CI/CD]
-Achievements: [Reduced deployment time by 40% and enabled seamless integration.]
-🎓 Certifications
-[AWS Certified Solutions Architect – Associate]
-[Certified Kubernetes Administrator (CKA)]
-[Docker Certified Associate]
-📫 Contact Me
-Email: [sreenu.ramanaboina@gmail.com]
-GitHub: [github.com/sreenu827]
-LinkedIn: [www.linkedin.com/in/sreenivasulu-ramanaboina]
-Portfolio: [sreenivasuluramanaboina.github.io]
+Welcome to my portfolio! This repository contains the source code and content for my GitHub Pages portfolio, showcasing my skills, projects, and certifications in Cloud and DevOps engineering.
+
+## 🌟 About Me
+Hi! I'm Sreenivasulu, an aspiring **Cloud & DevOps Engineer** with experience in automation testing and a growing expertise in cloud technologies. I’m passionate about building scalable infrastructure, automating workflows, and leveraging DevOps tools to optimize software delivery.
+
+## 🛠️ Skills
+- **Cloud Platforms**: AWS (EC2, S3, Lambda, IAM, CloudFormation)
+- **Containerization**: Docker, Kubernetes (learning)
+- **DevOps Tools**: Jenkins, Terraform (learning), GitHub Actions
+- **Scripting & Automation**: Bash, Python (basics)
+- **Operating Systems**: Linux (file permissions, system commands)
+- **Other Tools**: Git, Visual Studio Code, Postman
+
+## 🚀 Projects
+### 1. Stargate AI Infrastructure (WIP)
+- **Description**: Automating deployment of AI-based infrastructure using Docker and AWS.
+- **Tech Stack**: Docker, AWS, Terraform, Jenkins
+- **GitHub Link**: [Stargate AI Repo](#)
+
+### 2. Linux Automation Scripts
+- **Description**: Created shell scripts for automating routine tasks (e.g., file backups, user management).
+- **GitHub Link**: [Linux Scripts Repo](#)
+
+### 3. Personal Portfolio
+- **Description**: A responsive GitHub Pages portfolio to showcase my skills and projects.
+- **GitHub Link**: [Portfolio Repo](https://github.com/sreenu827/sreenivasuluramanaboina/)
+
+## 📄 Resume
+[Download My Resume](#)
+
+## 📬 Contact Me
+- **GitHub**: [sreenu827](https://github.com/sreenu827)
+- **LinkedIn**: [Your LinkedIn Profile](#)
+- **Email**: [YourEmail@example.com](mailto:YourEmail@example.com)
+
+## 🎨 Theme Customization
+This portfolio is powered by **GitHub Pages** and styled using Jekyll with custom tweaks for responsiveness and aesthetics.
+
+---
+
