@@ -14,8 +14,8 @@ author:
   tagline: "Aspiring Cloud & DevOps Engineer | Automation Enthusiast"
 
 # Theme Settings
-remote_theme: "mmistakes/minimal-mistakes" # Correct way to use Minimal Mistakes with GitHub Pages
-theme: null # Must be null if using a remote theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"  # Using a compatible version of the theme
+theme: null # Must be null when using remote themes
 
 # Footer
 footer:
@@ -23,7 +23,7 @@ footer:
 
 # Plugins (Ensure required plugins are included)
 plugins:
-  - jekyll-remote-theme # Required for using remote themes
+  - jekyll-remote-theme  # Required for using remote themes
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
