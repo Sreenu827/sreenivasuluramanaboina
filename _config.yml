@@ -14,7 +14,7 @@ author:
   tagline: "Aspiring Cloud & DevOps Engineer | Automation Enthusiast"
 
 # Theme Settings
-remote_theme: "mmistakes/minimal-mistakes@4.23.0"  # Use a compatible version (4.23.0) of the theme
+remote_theme: "mmistakes/minimal-mistakes@4.20.0"  # Downgrading to version 4.20.0
 theme: null # Set to null when using remote themes (avoid conflicts)
 
 # Footer
