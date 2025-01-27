@@ -14,8 +14,8 @@ author:
   tagline: "Aspiring Cloud & DevOps Engineer | Automation Enthusiast"
 
 # Theme Settings
-theme: "minimal-mistakes-jekyll" # Replace with the theme you're using
-remote_theme: "mmistakes/minimal-mistakes" # Optional if using a remote theme
+theme: minimal-mistakes-jekyll # Replace with the theme you're using
+#remote_theme: "mmistakes/minimal-mistakes" # Optional if using a remote theme
 
 # Footer
 footer:
