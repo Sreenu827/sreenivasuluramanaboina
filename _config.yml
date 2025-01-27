@@ -9,8 +9,8 @@ github_username: "your-github-username"
 
 # Build settings
 markdown: kramdown
-theme: mmistakes/minimal-mistakes@4.19.0 # Changed to a stable version of the theme
-remote_theme: "mmistakes/minimal-mistakes@4.19.0" # Specify version of theme
+theme: mmistakes/minimal-mistakes@4.24.0 # Updated to the latest stable theme version
+remote_theme: "mmistakes/minimal-mistakes@4.24.0" # Specify the correct theme version
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
